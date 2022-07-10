@@ -209,7 +209,7 @@ export default function HeroText() {
           </Group>
           <TextInput
             required
-            placeholder="URL"
+            placeholder="Image URL"
             mb={10}
             style={{ flex: 1 }}
             {...form.getInputProps("image_url")}
